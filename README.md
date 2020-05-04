@@ -1,8 +1,17 @@
+COMPSCI553: Compiler Construction
+
 Tiger to MIPS compiler written in SML.  
 
-###  STEPS
+###  Steps
 
-LEXING -> PARSING -> SEMANTIC ANALYSIS -> INSTRUCTION SELECTION -> LIVENESS ANALYSIS -> REGISTER ALLOCATION -> ASSEMBLY/LINKAGE -> MIPS ASSEMBLY
+- LEXING
+- PARSING
+- SEMANTIC ANALYSIS
+- INSTRUCTION SELECTION
+- LIVENESS ANALYSIS
+- REGISTER ALLOCATION
+- ASSEMBLY/LINKAGE
+- MIPS ASSEMBLY
 
 ###  TIGER LANGUAGE DOCUMENTATION
 
@@ -19,9 +28,3 @@ Main.compile "/path/test.tig";
 ```
 
 Produces an MIPS assembly file in the same directory as the target file that can be compiled using a MIPS simulator.
-
-### FUTURE
-
-Might attempt implement garbage collection, support for OOP.# TigerCompiler
-# TigerCompiler
-# TigerCompiler
